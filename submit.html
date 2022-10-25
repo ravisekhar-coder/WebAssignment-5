@@ -1,0 +1,17 @@
+
+<html>
+<head>
+</head>
+<body>
+
+<h1 style="text-align:center; padding:100px;" id="submitText"></h1>
+<script>
+            const params = new URLSearchParams(window.location.search)
+            name= params.get('name');
+			email=params.get('email');
+			phone=params.get('phone');
+			console.log(name);
+            document.getElementById("submitText").innerHTML = "Thank you "+ name + " for your interest, We will let you know soon."
+</script>
+</body>
+</html>

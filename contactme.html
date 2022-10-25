@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ContactUs</title>
+<link rel="icon" type="images/favicon" href="images/favicon.jpg">
+<!-- embedded CSS Style -->
+<style> 
+            
+			<!-- Accessing CSS selector by HTML h1 tag -->
+            h1{
+			text-align:center
+			}
+			.button {
+					background-color: green; /* Maron */
+					border: none;
+					color: white;
+					padding: 20px 35px;
+					font-size: 22px;
+					width: 300px;
+  
+			}
+			
+
+			.button1 {
+					background-color: white; 
+					color: black; 
+					border: 2px solid green;
+					border-radius: 20px ;
+			}
+
+			.button1:hover {
+					background-color: green;
+					color: white;
+			}
+			.contact-me {
+			border-top: solid;
+			border-right: solid;
+			border-bottom: solid;
+			border-left:solid;
+			}
+			b{
+			display: block;
+			}
+        </style> 
+		</head>
+<body>
+
+<div style="display:flex;text-align:center;">
+
+<div style="padding:50px; width:40%; text-align:center"> 
+<h1 style="text-align:center">Contact Us</h1><br/> <br/>
+<span> 
+	<b>To book an appointment call us at</b>
+	<b> +1(313)7216612 </b>
+</span> 
+<br/><br/>
+<span>
+<b>you can mail us at</b>
+<b>raviseshu536@gmail.com </b>
+</span>
+<br/><br/>
+
+<span>
+<b>Visit us at</b>
+<b>wessex court,dearborn,michigan,4812</b>
+<span>
+</div>
+
+<!-- Accessing CSS selectors by ID-->
+
+<div>
+
+                    <div style="padding:50px; text-align: left;">
+                        <p style=" text-align: center; font-size:25px; font-weight: bold;">Write to me
+                            here...</p>
+                        <form method="GET" action="submit.html">
+                            <div class="formDiv" style="padding-top:0px;">
+                                <label for="name">Name</label><br>
+                                <input type="text" style="height: 30px;" name="name" id="name" required> </input>
+                            </div>
+							<br>
+                            <div class="formDiv">
+                                <label for="mail">E-Mail</label><br>
+                                <input type="email" style="height: 30px;" name="email" id="email" required> </input>
+                            </div>
+							<br>
+                            <div class="formDiv">
+                                <label for="phone">Contact Me</label><br>
+                                <input type="tel" style="height: 30px;" name="phone" id="phone"required> </input>
+                            </div>
+							<br>
+                            <div class="formDiv">
+                                <label for="orgName">Location</label><br>
+                                <input type="text" style="height: 30px;" name="location" id="location" required> </input>
+                            </div>
+							<br>
+                            <div class="formDiv"><br>
+                                <input style="color:blue"class="formBtn" type="submit" name="Submit"></input>
+                            </div>
+                        </form>
+                    </div>
+</div>
+</div>
+</body>
+</html>
